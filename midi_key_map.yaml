@@ -61,3 +61,62 @@ input:
     app: FL Studio
     key:
       - delete
+  -
+    name: Mute Selection
+    device: nanoPAD2
+    midi: note_on channel=0 note=37
+    app: FL Studio
+    key:
+      - alt
+      - m
+  -
+    name: Pattern/Song
+    device: nanoPAD2
+    midi: note_on channel=0 note=39
+    app: FL Studio
+    key:
+      - l
+  -
+    name: Piano Roll
+    device: nanoPAD2
+    midi: note_on channel=0 note=41
+    app: FL Studio
+    key:
+      - f7
+  -
+    name: Metronome
+    device: nanoPAD2
+    midi: note_on channel=0 note=43
+    app: FL Studio
+    key:
+      - command
+      - m
+  -
+    name: Custom
+    device: nanoPAD2
+    midi: note_on channel=0 note=45
+    app: FL Studio
+    key:
+      - l
+  -
+    name: Custom
+    device: nanoPAD2
+    midi: note_on channel=0 note=47
+    app: FL Studio
+    key:
+      - l
+  -
+    name: Custom
+    device: nanoPAD2
+    midi: note_on channel=0 note=49
+    app: FL Studio
+    key:
+      - l
+  -
+    name: Link Controller
+    device: nanoPAD2
+    midi: note_on channel=0 note=51
+    app: FL Studio
+    key:
+      - command
+      - j
