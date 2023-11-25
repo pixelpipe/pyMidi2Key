@@ -12,7 +12,7 @@ def main():
     #keyMap.checkAndSend('KeyLab','note_on','Chrome')
     keyMap.print()
     midiDevices = MidiDevices(keyMap)
-    midiDevices.scan(['SparkLE','KeyLab mkII 61 MIDI'], 'in')
+    midiDevices.scan(['nanoPAD2'], 'in')
     midiDevices.StartMonitoring()
     midiDevices.print()
 

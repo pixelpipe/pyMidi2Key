@@ -34,7 +34,7 @@ class MidiKeyMap:
                                 else:
                                     if len(keys) == 2:
                                         print(f'hotkey {keys[0]}+{keys[1]}')
-                                        hotkey(keys[0],keys[1])
+                                        hotkey(keys)
                                     else:
                                         if len(keys) == 3:
                                             print(f'hotkey {keys[0]}+{keys[1]}+{keys[2]}')

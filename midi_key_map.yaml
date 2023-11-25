@@ -2,29 +2,62 @@ type: midi_key_map
 version : 1
 input:
   -
-    name: Save
-    device: KeyLab mkII 61 MIDI
-    midi: note_on channel=0 note=60
-    app: Google Chrome
+    name: Play
+    device: nanoPAD2
+    midi: note_on channel=0 note=36
+    app: FL Studio
     key:
-      - ctrl
-      - x
+      - space
   -
-    name: K
-    device: KeyLab mkII 61 MIDI
-    midi: note_on channel=0 note=61
-    app: Google Chrome
-    key: k
+    name: Record
+    device: nanoPAD2
+    midi: note_on channel=0 note=38
+    app: FL Studio
+    key: r
   -
-    name: A
-    device: Spark
-    midi: note_on channel=0 note=60
-    app: Google Chrome
-    key: A
-  -
-    name: F1
-    device: Spark
-    midi: note_on channel=0 note=61
-    app: Google Chrome
+    name: SelectAll
+    device: nanoPAD2
+    midi: note_on channel=0 note=40
+    app: FL Studio
     key:
-      - enter
+      - command
+      - a
+  -
+    name: Clone
+    device: nanoPAD2
+    midi: note_on channel=0 note=42
+    app: FL Studio
+    key:
+      - command
+      - b
+  -
+    name: Quantize
+    device: nanoPAD2
+    midi: note_on channel=0 note=44
+    app: FL Studio
+    key:
+      - command
+      - q
+  -
+    name: Undo
+    device: nanoPAD2
+    midi: note_on channel=0 note=46
+    app: FL Studio
+    key:
+      - command
+      - z
+  -
+    name: Zoom
+    device: nanoPAD2
+    midi: note_on channel=0 note=48
+    app: FL Studio
+    key:
+      - shift
+      - "4"
+  -
+    name: Delete
+    device: nanoPAD2
+    midi: note_on channel=0 note=50
+    app: FL Studio
+    key:
+      - delete
