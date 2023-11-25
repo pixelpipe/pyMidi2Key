@@ -1,0 +1,30 @@
+type: midi_key_map
+version : 1
+input:
+  -
+    name: Save
+    device: KeyLab mkII 61 MIDI
+    midi: note_on channel=0 note=60
+    app: Google Chrome
+    key:
+      - ctrl
+      - x
+  -
+    name: K
+    device: KeyLab mkII 61 MIDI
+    midi: note_on channel=0 note=61
+    app: Google Chrome
+    key: k
+  -
+    name: A
+    device: Spark
+    midi: note_on channel=0 note=60
+    app: Google Chrome
+    key: A
+  -
+    name: F1
+    device: Spark
+    midi: note_on channel=0 note=61
+    app: Google Chrome
+    key:
+      - enter
