@@ -3,14 +3,15 @@ import platform
 if platform.system() == 'Darwin':
     from AppKit import NSWorkspace
 
+
 class TopWindow:
     def __init__(self):
         self.system = platform.system()
 
-    def getTopWindow(self):
+    def get_top_window(self):
         if self.system == 'Darwin':
-            topAppName =  NSWorkspace.sharedWorkspace().activeApplication()['NSApplicationName']
-            return topAppName
+            top_app_name = NSWorkspace.sharedWorkspace().activeApplication()['NSApplicationName']
+            return top_app_name
         else:
             if self.system == 'Windows':
                 return ""
