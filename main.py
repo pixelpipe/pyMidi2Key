@@ -8,7 +8,7 @@ import time
 def main():
     key_map = MidiKeyMap('midi_key_map.yaml')
     # key_map.checkAndSend('KeyLab','note_on','Chrome')
-    key_map.print()
+    # key_map.print()
     midi_devices = MidiDevices(key_map)
     midi_devices.scan(['nanoPAD2'], 'in')
     midi_devices.StartMonitoring()

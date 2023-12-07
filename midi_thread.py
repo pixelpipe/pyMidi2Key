@@ -49,6 +49,11 @@ class MidiThread(threading.Thread):
     def get_queue(self):
         return self.queue
 
+    @classmethod
+    def get_thread_counter(cls):
+        get_thread_counter()
+        pass
+
 
 def print_time(thread_name, delay):
     count = 0

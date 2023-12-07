@@ -12,7 +12,7 @@ class MidiDevice:
         self.uid = f'{id}:{type}:{name}'
         self.port = port
         self.keymap = keymap
-        self.thread = MidiThread(MidiThread.GetThreadCounter(), self.uid, self.name, self.type, self.port, self.keymap)
+        self.thread = MidiThread(MidiThread.get_thread_counter(), self.uid, self.name, self.type, self.port, self.keymap)
 
     def StartMonitoring(self):
         self.thread.start()
